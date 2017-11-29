@@ -1,7 +1,7 @@
 <template>
   <div class="cl-div">
     <div class="center">
-      <h1>checklist demo</h1>
+      <h1>checklist demo-测试提交</h1>
       <input type="text" @focus="openChecklist" placeholder="请选择考场">
       <p v-for="(item, index) in kaochangVal" :key="index">{{item.label}}</p>
     </div>
